@@ -1,0 +1,60 @@
+<div class='my-first-calculator'>
+    <div class='operations-block'>
+        <button class='operation-buttons' id='buttonPlus'>+</button>
+        <button class='operation-buttons'id='buttonMinus'>-</button>
+        <button class='operation-buttons'id='buttonMultiply'>*</button>
+        <button class='operation-buttons'id='buttonDivide'>/</button>
+    </div>
+    <div class='separator'>
+        <hr/>
+    </div> 
+    <div class='inputs-block'>
+        <div class='input-block'>
+            <label>Number1</label>
+            <input value='13' id='number1'/>
+        </div>
+        <div class='input-block'>
+            <label>Number2</label>
+            <input value='12' id='number2' type='number'/>
+        </div>
+    </div>
+
+</div>
+<div>
+    <ul>
+        <li>git clone path-to-repository</li>
+        <li>git status</li>
+        <li>git add file path/file name</li>
+        <li>git add . - adds all newly created files in overall parent project folder</li>
+        <li>git commit -am "added new file JS3.Calculator.html or added new instructions etc"</li>
+        <li>git push</li>
+        <li>git pull</li>
+    </ul>
+</div>
+
+<script>
+
+let age = 23;
+let age2 = age;
+
+let a = {
+    name: 'Learn-react.com',
+    protocol: 'https',
+    maxStudentsCount: 10,
+    isOnline: true,
+    students: ['Olzhas', 'Aina', 'Sergey', 'Marat'],
+    classroom: {
+        teacher: {
+            name: 'Olezha',
+            age: 33
+        }
+    }
+
+}
+
+let b = {...a};
+a.name = 'it-kamasutra.com'
+
+b.students = [...a.students];
+
+</script>
